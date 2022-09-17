@@ -1,0 +1,55 @@
+<strong> - Negrito
+<em> - itálico
+<ul type='disc, circle, square'> - lista sem ordem
+<ol type='1,A,a,I,i'> - lista ordenada
+<dl> - lista de definição. Precisa conter um <dd> abaixo de cada elemento do dl gerando a definição
+<div> - divisória
+<id> - id único para uma tag
+<class> - 'id' que pode ser atribuído a várias tags
+<mark> - marca texto
+<sup> - eleva a escrita, ex: x²+3
+<sub> - abaixa a escrita, ex: h2o
+<code> - formatação de código fonte
+<pre> - considera a forma que foi escrito na página html, ex, identação python.
+<q> - citação/quote
+<blockquote cite='link/ref'> - citação em bloco
+<abbr title='significado'> - abreviação
+<a href='url' target='_blank' rel='external'> link em nova aba com blank e external
+baixar arquivos se ligar no mediatype (iana.org)(<a href='dir' dowload='nome.algo' type='mediaType')
+
+
+COM BOOTSTRAP:
+1)Barra de navegação;
+    class = "position-fixed navbar-dark bg-dark m-auto" style=" z-index:999;"
+    atribui cor na definição da classe, ex: class="btn btn-dark" ou class="btn btn-primmary"
+
+TIP: Para alinhar e centralizar usa-se as colunas e o margin auto
+TIP: Caso coloque algo que n fique centralizado, use um border solid para ver se é maior que uma coluna normal se for, use um m-auto e style='width: tamanhopx'
+
+2)
+
+3)FOOTER:
+    
+
+Melhores:
+    :range
+        Formulário por range max e min, 'Min and max'.
+
+    :imput group   
+        input grupo, estilo @do insta, 'Wrapping'
+        input arquivo, 'Custom file input'
+    
+    :Floating labels
+        input groups, @username
+        layout email+drop down
+
+    :Layout
+        Form grid, primeiro nome + último nome
+        cadastro: glutter, nome, senha, rua, cidade, estado e cep + check box
+        login: Horizontal form
+
+    :Validação
+        ###
+
+
+OBS: A coluna é responsiva, logo ela pode "juntar" encima de outros, index siteCobras

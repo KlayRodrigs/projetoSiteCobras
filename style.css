@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.page-footer{
+    background-color: #212529;
+}
+.navbar{
+    z-index: 999;
+}
+.navbar-nav{
+    --bs-scroll-height: 100px
+}
+.text-center{
+    color: white;
+}
+.col{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
